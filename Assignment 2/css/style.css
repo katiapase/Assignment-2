@@ -1,0 +1,214 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clearfix: contain floats */
+.group:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;   
+}
+
+header {
+  margin: 0 auto; 
+  height: 700px;
+  text-align: center;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: Extra-Bold;
+
+}
+
+h2 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 48px  
+}
+
+h3 {
+  padding-left: 15px;
+  padding-top: 25px; 
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px
+} 
+  
+p {
+  color: #606161;
+  font-weight: 300;
+  font-size: 26px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 40px;
+  width: 700px;
+  text-align: center; 
+}
+
+ul {
+    color: #606161;
+    list-style-type: disc;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    margin-left: 100px;
+    margin-right: 300px;
+} 
+
+h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  vertical-align: middle;
+
+}
+
+h5 {
+  border-box: 10px; 
+  font-weight: 800;
+  font-size: 28px;
+  font-color: #033048;
+  font-family: 'Open Sans', sans-serif; 
+  background-color: #f9e42e;
+  background-size: 5px;  
+}
+
+.benefits {
+  margin: 0 auto;
+  height: 400px;
+  background-color: #f0efef; 
+}
+
+.middle {
+  margin: 0 auto;
+  height: 400px;
+  text-align: center;
+  background: url(../images/header_bg.jpg) no-repeat bottom rgb(134,141,157);
+  opacity: 85; 
+}
+
+.blockquote {
+ text-align: center;
+  vertical-align: middle;
+  display: inline-block; 
+  font-size: 36px;
+  font-weight: 300 Italic;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  width: 700px;  
+}
+
+#attribution {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: black;
+  margin: auto;
+  width: 100%; 
+  color: white;
+  text-align: center;
+  vertical-align: middle; 
+  height: 350px;
+  position: center;
+  padding-top: 35px;
+}
+
+.copyright {
+position:center;
+color: white;
+display:inline-block;
+}
+
+#button {
+  border-radius: 5px; 
+  height: 100px;
+  width: 280px;
+  border-radius: 5px; 
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  position: center;   
+  padding-top: 50px;
+}
+
+#button2 {
+background-color: #f9e42e;
+border-radius: 5px; 
+color: white;
+height: 100px;
+width: 200px;
+text-align: center; 
+vertical-align: middle;
+position: center;   
+padding-top: 50px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 800;
+font-size: 24px;
+}
+
+#mainlogo {
+  text-align: left;
+  margin-right: 40px;
+  padding-bottom: 150px; 
+  padding-top: 30px; 
+  padding-left: 15px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  max-width: 960%;
+  margin: 0 auto;
+  height: 500px;
+
+
+
+
